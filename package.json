@@ -1,0 +1,24 @@
+{
+  "name": "vue-koa",
+  "version": "1.0.0",
+  "description": "server based on koa",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon build/dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemongranule/koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemongranule/koa/issues"
+  },
+  "homepage": "https://github.com/lemongranule/koa#readme",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
