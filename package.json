@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lemongranule/koa#readme",
   "dependencies": {
+    "@koa/cors": "^2.2.3",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0"
