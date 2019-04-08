@@ -4,7 +4,7 @@
   "description": "server based on koa",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon build/dev.js",
+    "dev": "nodemon build/dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/lemongranule/koa#readme",
   "dependencies": {
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   }
 }
